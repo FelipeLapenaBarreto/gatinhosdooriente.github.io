@@ -7,18 +7,18 @@ html,body {
 }
 
 body {
-	background-color: #2b2b2b;
+	background-color: #37ffff;
 	font-family: 'Montserrat', sans-serif;
 }
 
 
 .navigation {
-	background-color: #2b2b2b;
-	color: white;
+	background-color: #8aff9d;
+	color: black;
 	height: 50px;
 
 	animation-name: navegacao;
-	animation-duration: 4s;
+	animation-duration: 1s;
 }
 
 
@@ -43,12 +43,12 @@ body {
 }
 
 .navigation a {
-	color: white;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 }
 
 .navigation a:hover {
-	color: #f27609;
+	color: #3409f2;
 }
 
 .navigation li.threeline-icon {
@@ -56,20 +56,16 @@ body {
 }
 
 .navigation li.threeline-icon:hover {
-	color: #f27609;
+	color:  #3409f2;
 	cursor: pointer;
 }
 
 .capa {
-	color: white;
+	color: rgb(2, 2, 2);
 	vertical-align: top;
 	padding-bottom: 20px;
 }
 
-.capa span {
-	color: #f27609;
-	display: block;
-}
 
 .capa div {
 	display: inline-block;
@@ -81,7 +77,7 @@ body {
 	text-align: center;
 
 	animation-name: profile-capa;
-	animation-duration: 2s;
+	animation-duration: 1s;
 }
 
 .profile-pic img {
@@ -96,7 +92,7 @@ body {
 	width: 59%;
 
 		animation-name: titulo-capa;
-		animation-duration: 2s;
+		animation-duration: 1s;
 
 }
 
@@ -119,7 +115,7 @@ body {
 	padding: 40px 180px 80px 100px;
 
 	animation-name: conteudo;
-	animation-duration: 2s;
+	animation-duration: 1s;
 
 }
 
@@ -131,12 +127,12 @@ body {
 }
 
 .main h1 {
-	color: white;
+	color: black;
 	font-weight: normal;
 }
 
 .main h2 {
-	color: white;
+	color: black;
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -151,7 +147,7 @@ body {
 }
 
 .main p {
-	color: white;
+	color: black;
 	font-size: 18px;
 	font-weight: 100;
 	line-height: 24px;
